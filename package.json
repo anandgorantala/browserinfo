@@ -1,0 +1,26 @@
+{
+  "name": "deviceinfo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anand",
+  "license": "MIT",
+  "dependencies": {
+    "rethinkdb": "~1.15.0-0",
+    "express": "~4.10.4",
+    "express-handlebars": "~1.1.0",
+    "express-less": "0.0.6",
+    "static-favicon": "~2.0.0-alpha",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.5.0",
+    "body-parser": "~1.10.0",
+    "nodemon": "~1.2.1",
+    "less-middleware": "~1.0.4",
+    "debug": "~2.1.0",
+    "ip": "~0.3.2",
+    "ua-parser": "~0.3.5"
+  }
+}
