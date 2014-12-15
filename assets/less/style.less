@@ -1,6 +1,15 @@
 @import "normalize";
 @import "skeleton";
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 3rem;
+}
+
 .header {
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 3rem;
@@ -23,4 +32,19 @@
 	.value {
 		font-size: 2rem;
 	}
+}
+
+.ua-raw {
+	white-space: pre-wrap;
+}
+
+.footer {
+	box-sizing: border-box;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 0.5rem;
+	font-size: 1.2rem;
 }

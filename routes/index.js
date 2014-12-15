@@ -7,7 +7,7 @@ exports.index = function(req, res){
 	var browser = uaParser.parse(ua);
 
 	res.render('index', { 
-		title: 'Express', 
+		title: 'About My Browser. Ip Address, Browser and OS', 
 		ip: ip.address(), 
 		ua: ua,
 		browser: browser.ua.toString(),

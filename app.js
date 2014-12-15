@@ -46,6 +46,11 @@ app.use(function(req, res, next) {
     next(err);
 });
 
+// Global template variables
+app.locals =  {
+    year: new Date().getFullYear()
+};
+
 /// error handlers
 
 // development error handler
